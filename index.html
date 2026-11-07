@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><title>Central PA Wings | 2027 Redesign Preview</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;0,800;1,800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0b101a;--panel:#131d2b;--line:#2c3b51;--blue:#87baff;--yellow:#eafa35;--paper:#f4f6f9;--muted:#bac7d8}*{box-sizing:border-box}body{margin:0;background:var(--ink);color:var(--paper);font:16px/1.55 system-ui,sans-serif}a{color:inherit;text-decoration:none}button,select,input{font:inherit}button,summary{cursor:pointer}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #559fff;outline-offset:4px}.wrap{width:min(1150px,calc(100% - 44px));margin:auto}.bar{background:#202c3e;color:#e1eaf8;font-size:.78rem}.bar .wrap,.nav,.actions,.foot{display:flex;align-items:center;gap:18px;flex-wrap:wrap}.bar .wrap{justify-content:space-between;padding-block:8px}.bar a,.foot a{text-decoration:underline;text-underline-offset:4px}.bar button{background:none;border:0;color:inherit;text-decoration:underline}.nav{justify-content:space-between;padding-block:9px}.brand img{display:block;width:105px;height:43px;object-fit:contain}.nav nav{display:flex;gap:20px;align-items:center;font-size:.8125rem;font-weight:650}.nav nav a:hover,.textlink:hover{color:var(--blue)}.nav nav a[aria-current]{color:var(--yellow)}.nav nav .btn[aria-current],.nav nav .btn:hover{color:var(--ink)}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:10px 18px;background:var(--yellow);color:var(--ink);border:1px solid var(--yellow);border-radius:5px;font-weight:800}.btn:hover{background:#f7ff9e}.outline{background:transparent;color:var(--paper);border-color:#72839e}.outline:hover{background:#273750}.hero{overflow:hidden;position:relative;border-block:1px solid var(--line);background:radial-gradient(ellipse at 81% 34%,#263f6d 0, #101a2c 40%,#0b101a 72%)}.hero .wrap{position:relative;z-index:1;padding-block:78px 72px}.hero p{max-width:510px}.eyebrow{color:var(--blue);text-transform:uppercase;font-size:.78rem;letter-spacing:.16em;font-weight:850}.hero .eyebrow,.accent{color:var(--yellow)}h1,h2,h3,p{margin:0 0 14px}h1,h2{font-weight:950;letter-spacing:-.055em;line-height:1}h1{font-size:clamp(3rem,7.6vw,7.2rem);max-width:890px;text-transform:uppercase}h2{font-size:clamp(1.85rem,3.3vw,2.65rem)}h3{line-height:1.2}.lead{font-size:1.13rem;color:#d2dfef}.actions{margin-top:24px}.muted{color:var(--muted)}.section{padding-block:52px}.paper{background:var(--paper);color:var(--ink)}.paper .eyebrow{color:#24538e}.paper .muted{color:#4c5c70}.grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:start}.coach{display:grid;grid-template-columns:minmax(130px, .8fr) 1fr;align-items:center;gap:28px;background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden}.coach img{display:block;width:100%;height:100%;max-height:340px;object-fit:cover;object-position:50% 25%;background:#080b10}.coach div{padding:24px 22px 24px 0}.textlink{font-weight:800;text-decoration:underline;text-underline-offset:5px}.paper .textlink:hover{color:#24538e}.card{padding:25px;border:1px solid #cad4e1;border-radius:9px;background:#fff}.pagehead{border-top:1px solid var(--line);background:linear-gradient(110deg,#111c2f,#203756);padding-block:55px}.pagehead h1{font-size:clamp(2rem,4.3vw,3rem)}dl{margin:0}dl div{display:grid;grid-template-columns:1fr 1.4fr;gap:12px;padding:13px 0;border-bottom:1px solid #d4dce6}dt{font-weight:800}dd{margin:0}details{border-bottom:1px solid #cbd5e0;padding:12px 0}summary{font-weight:800}details p{margin:12px 0 4px}.dark-details{border-color:var(--line)}label{display:block;font-weight:750;margin-bottom:13px}input,select{display:block;width:100%;padding:10px 12px;border:1px solid #8a9bb0;border-radius:5px;margin-top:5px;background:white;color:var(--ink)}.foot{justify-content:space-between;padding-block:24px;color:var(--muted);font-size:.86rem}.foot strong{color:var(--paper)}dialog{width:min(550px,calc(100% - 32px));border:1px solid var(--line);border-radius:12px;padding:28px;background:var(--paper);color:var(--ink)}dialog::backdrop{background:#000a}dialog button{margin-top:10px}.notes{padding-left:21px}.notes li{margin-bottom:12px}.skip{position:absolute;left:10px;top:-100px;background:var(--yellow);color:var(--ink);z-index:5;padding:10px}.skip:focus{top:10px}[hidden]{display:none!important}@media(max-width:720px){.wrap{width:calc(100% - 32px)}.nav{gap:9px}.nav nav{width:100%;gap:8px 16px;flex-wrap:wrap}.nav nav .btn{min-height:36px;padding:5px 9px}.hero .wrap{padding-block:55px}.grid{grid-template-columns:1fr}.coach{gap:16px}.coach div{padding-right:12px}.section{padding-block:36px}}
+
+
+
+
+
+:root{--display:"Barlow Condensed","Arial Narrow",Impact,sans-serif;--ink:#080f1b;--panel:#111c2e;--line:#263950;--paper:#f2f5f8;--yellow:#eafa35}
+body{font-family:Inter,Arial,sans-serif}h1,h2,h3{font-family:var(--display);font-weight:800;letter-spacing:.005em}h1,h2{text-transform:uppercase}h2{font-size:clamp(1.75rem,3vw,2.25rem)}h3{font-size:1.38rem}.btn{border-radius:2px}.eyebrow{letter-spacing:.15em}.bar{background:#152235}.nav nav a{min-height:36px;display:inline-flex;align-items:center}.nav nav .btn{min-height:36px;padding:6px 13px;font-weight:750}
+.showcase{margin:0;border:0;border-block:1px solid var(--line);isolation:isolate;background:#0b1729}.showcase .wrap{min-height:clamp(330px,32vw,415px);display:flex;align-items:center;padding-block:32px}
+.court-photo{position:absolute;inset:0 0 0 11%;z-index:-1;overflow:hidden;background:#142541}.court-photo img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}.court-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#0b1729 0%,#0b1729c9 17%,#0b17294d 40%,transparent 62%),linear-gradient(0deg,#080f1b88,transparent 46%)}
+
+.hero-copy{position:relative;margin-left:clamp(0px,11vw,150px);text-shadow:0 2px 18px #080f1bb3}
+.hero-copy h1{font-size:clamp(2.75rem,4.6vw,3.75rem);line-height:.88;margin:0;letter-spacing:.01em}.hero-copy h1 em{font-weight:800;color:var(--yellow)}
+.way-actions{display:flex;align-items:center;flex-wrap:wrap;gap:8px 22px}
+.values{display:grid;gap:12px;margin:17px 0 13px}
+.values{grid-template-columns:repeat(5,1fr)}.values>div{background:var(--panel);border-top:2px solid #638bc2;padding:13px}.values span{color:var(--yellow);font:italic 800 2.25rem/1 var(--display)}.values h3{font-size:1.22rem;margin:4px 0 7px}.values p{color:var(--muted);font-size:.86rem;margin:0}
+.feature{display:grid;grid-template-columns:minmax(180px,280px) 1fr;align-items:center;gap:clamp(24px,5vw,72px)}.feature-photo{display:block;width:100%;aspect-ratio:1;object-fit:cover;object-position:center 25%;border-radius:3px;background:#111827}.feature p{max-width:48ch}.credentials{padding-left:20px;font-weight:760}
+@media(max-width:760px){.values{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.hero-copy{margin-left:0}.showcase .wrap{min-height:325px;align-items:flex-end;padding-block:31px}.court-photo{inset:0 0 0 0}.court-photo img{object-position:50% 4%}.court-photo::after{background:linear-gradient(0deg,#0b1729 0%,#0b1729d9 21%,#0b172933 51%,transparent 76%)}.hero-copy h1{font-size:clamp(2.25rem,10vw,2.75rem)}.feature{grid-template-columns:1fr}.feature-photo{max-width:220px}}
+
+/* Stepped angles echo the feather edges in the Wings logo. */
+
+.teaser-button{border:0;background:none;color:var(--paper);padding:6px 0;font-weight:700;text-decoration:underline;text-underline-offset:4px}.teaser-button span{color:var(--yellow);margin-right:5px;font-size:.8em}
+
+.roster{background:linear-gradient(112deg,#152945,#0b1526 68%);border-bottom:1px solid var(--line)}.roster .feature{grid-template-columns:minmax(180px,330px) 1fr}.roster-photo{position:relative;margin:0;isolation:isolate}.roster-photo::before{content:"";position:absolute;inset:0;background:#77a5df;clip-path:polygon(0 0,100% 0,100% 72%,90% 82%,90% 72%,74% 91%,74% 82%,56% 100%,0 100%)}.roster-photo .feature-photo{position:relative;max-width:none;border-radius:0;clip-path:polygon(0 0,100% 0,100% 70%,89% 81%,89% 72%,73% 90%,73% 82%,54% 100%,0 100%)}.roster-photo figcaption{position:absolute;left:0;bottom:0;padding:8px 12px;background:var(--yellow);color:var(--ink);font-size:.74rem;font-weight:800;letter-spacing:.09em}.roster-photo figcaption strong{margin-left:7px}
+.way-example{display:grid;grid-template-columns:105px 1fr;gap:22px;align-items:center;margin:21px 0 15px;max-width:735px;padding:14px 20px;background:var(--panel);border-left:3px solid var(--yellow)}.way-example p:last-child{margin:0;color:var(--muted)}.way-letter{font:italic 800 5rem/.9 var(--display);color:var(--yellow);text-align:center}
+.video-dialog{width:min(700px,calc(100% - 32px))}.video-dialog video{display:block;width:100%;max-height:65vh;background:#000}
+@media(max-width:600px){.roster .feature{grid-template-columns:1fr}.roster-photo{max-width:240px}.way-example{grid-template-columns:50px 1fr;gap:12px;padding-inline:10px}.way-letter{font-size:3.2rem}}
+
+
+.day-layout{display:grid;grid-template-columns:1fr 1fr;gap:clamp(20px,5vw,72px)}
+.day-list div{grid-template-columns:1fr 1fr}.day-list dd{color:var(--muted)}.paper .day-list dd{color:#374d66}
+@media(max-width:650px){.day-layout{grid-template-columns:1fr}.day-list div{grid-template-columns:1.1fr 1fr}}
+
+
+.tryout-announcement{background:#e7eef6;color:#0b1526}
+.tryout-row{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px 28px;padding-block:23px}
+.tryout-row h2{font-size:clamp(1.5rem,2.45vw,2rem);margin-bottom:5px}
+.tryout-row p{margin:0;color:#374d66;font-size:.9rem}.tryout-row .btn{min-height:42px;font-size:.85rem}
+
+body:not(:has([data-page="interest"]:not([hidden]))) .bar,
+body:has([data-page="home"]:not([hidden])) .foot{display:none}
+.paper .teaser-button{color:var(--ink)}
+.paper .teaser-button span{color:#24538e}
+
+.inside-hero .wrap{min-height:clamp(290px,29vw,380px)}
+.coaches-hero .court-photo{inset:0 0 0 34%;background:#080d15}
+.coaches-hero .court-photo img{object-fit:contain;object-position:68% top}
+.coaches-hero .court-photo::after{background:linear-gradient(90deg,#0b1729,transparent 48%),linear-gradient(0deg,#080f1b88,transparent 44%)}
+.way-hero .court-photo img{object-position:center 14%}
+.coach-details article{max-width:68ch}.coach-details .dark-details{border-color:#cbd5e0}
+.guide-share{display:flex;gap:8px 12px;align-items:center;flex-wrap:wrap;margin-bottom:6px;font-size:.86rem}
+.guide-share button{background:none;color:inherit;border:0;padding:4px 0}
+@media(max-width:600px){.inside-hero .wrap{min-height:300px}.coaches-hero .court-photo{inset:0}.coaches-hero .court-photo img{object-position:right top}.coaches-hero .court-photo::after{background:linear-gradient(0deg,#0b1729,#0b172955 48%,transparent 75%)}}
+</style></head>
+<body><a class="skip" href="#main">Skip to content</a>
+<div class="bar"><div class="wrap"><strong>DESIGN PREVIEW</strong><span><button id="notes-open" type="button">What changed?</button> · <a href="https://www.centralpawings.com/" target="_blank" rel="noopener">View current site</a></span></div></div>
+<header class="wrap nav"><a class="brand" href="#home" aria-label="Central PA Wings home"><img alt="Central PA Wings Basketball" src="https://images.squarespace-cdn.com/content/v1/6a5920109956b15201b805d8/4a3d195f-558e-4e4c-b920-6b5332d0c6cd/Untitled+design+%285%29.png?format=1500w"></a><nav aria-label="Main navigation"><a href="#tryouts">Tryouts</a><a href="#coaches">Coaches</a><a href="#wings-way">Wings Way</a></nav></header>
+<main id="main" tabindex="-1">
+<div data-page="home">
+<section class="hero showcase">
+
+<div class="court-photo"><img src="https://images.squarespace-cdn.com/content/v1/6a5920109956b15201b805d8/eebbef24-72e9-4f27-a75a-a75ff4811b0a/Rising+Wings_+Basketball%E2%80%99s+Number+Seven.png?format=1500w" alt="No. 7 Wings player walking onto the court" fetchpriority="high"></div>
+<div class="wrap">
+<div class="hero-copy"><h1>Earn Your<br><em>Wings.</em></h1></div>
+</div></section>
+<section class="tryout-announcement" aria-labelledby="home-tryout-title">
+<div class="wrap tryout-row">
+<div><h2 id="home-tryout-title">January 2027 Open Tryouts</h2><p>Girls AAU basketball in Central PA. No invitation required.</p></div>
+<a class="btn" href="#interest">Get Tryout Updates</a>
+</div></section>
+</div>
+<div data-page="tryouts" hidden>
+<header class="hero showcase inside-hero tryouts-hero">
+<div class="court-photo"><img src="https://images.squarespace-cdn.com/content/v1/6a5920109956b15201b805d8/eebbef24-72e9-4f27-a75a-a75ff4811b0a/Rising+Wings_+Basketball%E2%80%99s+Number+Seven.png?format=1500w" alt="" loading="lazy"></div>
+<div class="wrap"><div class="hero-copy"><h1>2027 Open<br><em>Tryouts.</em></h1></div></div>
+</header>
+<section class="tryout-announcement"><div class="wrap tryout-row">
+<div><h2>January 2027</h2><p>All eligible players are welcome. No invitation is required.</p></div>
+<a class="btn" href="#interest">Get Tryout Updates</a>
+</div></section>
+<section class="paper section"><div class="wrap day-layout">
+<div><p class="eyebrow">01 / Your session</p><h2>When and where</h2><dl class="day-list">
+<div><dt>Team eligibility</dt><dd>Details to be announced</dd></div>
+<div><dt>Session date and time</dt><dd>To be announced</dd></div>
+<div><dt>Gym and entrance</dt><dd>To be announced</dd></div>
+<div><dt>Parking</dt><dd>Instructions pending</dd></div>
+</dl></div>
+<div><p class="eyebrow">02 / On arrival</p><h2>Check-in and next steps</h2><dl class="day-list">
+<div><dt>Arrival and check-in</dt><dd>Instructions pending</dd></div>
+<div><dt>What to bring</dt><dd>List pending</dd></div>
+<div><dt>When families will hear back</dt><dd>Notification timeline pending</dd></div>
+</dl></div>
+</div></section>
+<section class="section"><div class="wrap"><p class="eyebrow">03 / The season</p><h2>What families should know</h2><p class="muted">The inaugural season runs in spring and summer 2027.</p><dl class="day-list">
+<div><dt>Practice</dt><dd>Gym and weekly schedule pending</dd></div>
+<div><dt>Tournament travel</dt><dd>Schedule and travel details pending</dd></div>
+<div><dt>Cost</dt><dd>Team fees pending</dd></div>
+</dl></div></section>
+<section class="paper section"><div class="wrap"><div class="card"><h3>Parent questions</h3><div class="guide-share"><button type="button" id="copy-guide" class="textlink">Copy Tryouts Link</button><span id="copy-status" role="status"></span></div><details><summary>Do we need an invitation?</summary><p>No. All eligible athletes are welcome at open tryouts.</p></details><details><summary>Do we need to fill out the interest form?</summary><p>The interest form is optional. The program will announce official registration separately.</p></details><details><summary>How will we know when registration opens?</summary><p>The Wings will share dates, locations, and registration instructions when those details are ready.</p></details></div></div></section>
+</div>
+<div data-page="coaches" hidden><header class="hero showcase inside-hero coaches-hero">
+<div class="court-photo"><img src="https://images.squarespace-cdn.com/content/v1/6a5920109956b15201b805d8/275be0e3-3d64-45c3-b7aa-7b2344605fe7/9C2D5104-5CFB-4E8B-9133-9A6C12164671.png?format=500w" alt="Coach Erika Carter" loading="lazy"></div>
+<div class="wrap"><div class="hero-copy"><h1>Meet the<br><em>Coaches.</em></h1></div></div>
+</header><section class="paper section coach-details"><div class="wrap"><article><p class="eyebrow">16U head coach</p><h2>Erika Carter</h2><p>More than a decade of coaching experience, including roles at Cedar Cliff and Trinity High Schools.</p><details class="dark-details"><summary>Read Coach Carter’s bio</summary><p class="muted">Erika won the 2001 PIAA AA girls basketball state championship at Trinity. Her background includes varsity and JV coaching, AAU, youth development, and individual training. She is an educator in West Shore School District.</p></details></article><p class="muted" style="margin-top:20px">Additional coaching announcements will follow.</p></div></section></div>
+<div data-page="wings-way" hidden><header class="hero showcase inside-hero way-hero">
+<div class="court-photo"><img src="https://images.squarespace-cdn.com/content/v1/6a5920109956b15201b805d8/eebbef24-72e9-4f27-a75a-a75ff4811b0a/Rising+Wings_+Basketball%E2%80%99s+Number+Seven.png?format=1500w" alt="" loading="lazy"></div>
+<div class="wrap"><div class="hero-copy"><h1>The Wings<br><em>Way.</em></h1></div></div>
+</header><section class="paper section"><div class="wrap grid"><div><h2>More than basketball. Built for life.</h2><p>How the Wings want players to compete, develop, and support each other.</p><p class="muted">Open each standard for an illustrative example.</p><button class="teaser-button" id="teaser-open" type="button"><span aria-hidden="true">▶</span> Watch the Teaser</button></div><div class="card"><details><summary>W · Work relentlessly</summary><p>Sprint back on defense after a missed shot.</p></details><details><summary>I · Integrity always</summary><p>Own a mistake and listen to the correction.</p></details><details><summary>N · Never stop growing</summary><p>Pick one skill to work on after each game.</p></details><details><summary>G · Give more than you take</summary><p>Encourage a teammate who is having a tough stretch.</p></details><details><summary>S · Soar together</summary><p>Celebrate a teammate’s assist or defensive stop.</p></details></div></div></section></div>
+<div data-page="interest" hidden><header class="pagehead"><div class="wrap"><p class="eyebrow">January 2027 / Open tryouts</p><h1>Get tryout updates</h1></div></header><section class="paper section"><div class="wrap grid"><div><h2>Updates and registration</h2><p>The optional interest form is for tryout announcements. Official tryout registration will open separately.</p><p><a class="textlink" href="https://www.centralpawings.com/playerinterest" target="_blank" rel="noopener">Open the official Wings interest form</a></p><p><strong>Demo form.</strong> Use sample information to see the confirmation screen. Entries stay in this page and are discarded on submission.</p><a class="textlink" href="#tryouts">Back to tryout details</a></div><div class="card"><form id="interest-form" autocomplete="off"><label>Player name <input required maxlength="100"></label><label>Graduating class <select required><option value="">Select a year</option><option>2029</option><option>2030</option><option>2031</option></select></label><label>Parent or guardian email <input type="email" required></label><button class="btn" type="submit">Try Demo Signup</button></form><div id="confirmation" hidden tabindex="-1"><h3>Demo signup complete</h3><p>On the live site, families would receive an email when dates, locations, and registration are announced. This demo discards sample entries.</p><button class="btn" id="reset-form" type="button">Try Again</button></div></div></div></section></div>
+</main><footer class="wrap foot"><strong>Central PA Wings · Earn Your Wings</strong><a href="mailto:ihoop@centralpawings.com">ihoop@centralpawings.com</a></footer>
+<dialog id="teaser" class="video-dialog" aria-labelledby="teaser-title"><h2 id="teaser-title">Central PA Wings Teaser</h2><video controls playsinline preload="none" src="wings-teaser.mp4"></video><form method="dialog"><button class="btn">Close Teaser</button></form></dialog>
+<dialog id="notes" aria-labelledby="notes-title"><p class="eyebrow" style="color:#24538e">Redesign notes</p><h2 id="notes-title">What changed?</h2><ol class="notes"><li>The homepage pairs the Earn Your Wings court image with a single tryout announcement. The main navigation leads to Tryouts, Coaches, and Wings Way.</li><li>One Tryouts page brings together session logistics, check-in details, and parent FAQs.</li><li>The signup asks for three fields and makes the parent contact explicit.</li><li>Coach Carter gets a clear introduction and the Wings Way includes examples.</li></ol><form method="dialog"><button class="btn">Back to Preview</button></form></dialog>
+<script>
+const pages = Array.from(document.querySelectorAll('[data-page]'));
+const navigation = document.querySelectorAll('nav a');
+function renderPage(moveFocus) {
+  const route = location.hash.slice(1);
+  if (route === 'main') return;
+  const active = pages.find(page => page.dataset.page === (route === 'tryout-day' ? 'tryouts' : route)) || pages[0];
+  pages.forEach(page => { page.hidden = page !== active; });
+  navigation.forEach(link => {
+    if (link.hash === '#' + active.dataset.page) link.setAttribute('aria-current', 'page');
+    else link.removeAttribute('aria-current');
+  });
+  if (moveFocus) {
+    window.scrollTo(0, 0);
+    document.querySelector('main').focus({preventScroll: true});
+  }
+}
+addEventListener('hashchange', () => renderPage(true));
+renderPage(false);
+const form = document.querySelector('#interest-form');
+const confirmation = document.querySelector('#confirmation');
+form.addEventListener('submit', event => {
+  event.preventDefault();
+  form.reset();
+  form.hidden = true;
+  confirmation.hidden = false;
+  confirmation.focus();
+});
+document.querySelector('#reset-form').addEventListener('click', () => {
+  confirmation.hidden = true;
+  form.hidden = false;
+  form.querySelector('input').focus();
+});
+document.querySelector('#copy-guide').addEventListener('click', async () => {
+  const status = document.querySelector('#copy-status');
+  try {
+    await navigator.clipboard.writeText(new URL('#tryouts', location.href).href);
+    status.textContent = 'Guide link copied.';
+  } catch {
+    status.textContent = 'Copy this page’s address from your browser to share the guide.';
+  }
+});
+const teaser = document.querySelector('#teaser');
+document.querySelector('#teaser-open').addEventListener('click', () => teaser.showModal());
+teaser.addEventListener('close', () => teaser.querySelector('video').pause());
+document.querySelector('#notes-open').addEventListener('click', () => document.querySelector('#notes').showModal());
+</script></body></html>

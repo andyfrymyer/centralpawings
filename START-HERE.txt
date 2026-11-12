@@ -1,0 +1,26 @@
+CENTRAL PA WINGS — POWERED BY FRNTCOURT
+
+Includes the primary CP Wings logo, approved FRNTCOURT artwork, centered header,
+full-width bottom navigation, opening screen, Home, Schedule, Film, and Team.
+
+VIEW: Extract this ZIP and open app-preview/index.html in your browser.
+An internet connection loads the navigation icon library. Logos are embedded.
+
+GITHUB PAGES: Replace app-preview/index.html in the centralpawings repository.
+This does not replace the production FRNTCOURT backend.
+
+STATUS: Interactive design preview with sample data. Attendance changes reset
+when reloaded. Selected film is played locally; it is not uploaded. There are
+no real sign-ins, payments, notifications, or database connections here.
+
+FRESH RAILWAY DEPLOYMENT PLAN
+1. Obtain the current midpenn-motion source from GitHub (Code > Download ZIP).
+2. Integrate this approved interface into the existing working app.
+3. Create a separate Railway project connected to a new GitHub branch/repository.
+4. Configure the app's actual environment variables and isolated test storage.
+5. Test sign-in, team permissions, schedules, film, payments and persistence.
+6. Back up and migrate required existing data before changing the live domain.
+7. Build a new signed iOS release separately through Codemagic.
+
+Do not upload this preview as a replacement for the full production app.
+No GitHub push, Railway deployment, domain change, or iOS release has been made.
